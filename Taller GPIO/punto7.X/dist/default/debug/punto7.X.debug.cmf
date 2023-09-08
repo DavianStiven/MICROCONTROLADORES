@@ -1,0 +1,776 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 2 2 2 2 1
+config CONFIG 4 8007 8007 2 2 1
+$dist/default/debug\punto7.X.debug.o
+cinit CODE 0 7F6 7F6 A 2 1
+text1 CODE 0 45B 45B D 2 1
+text2 CODE 0 457 457 4 2 1
+text3 CODE 0 59B 59B 81 2 1
+text4 CODE 0 51A 51A 81 2 1
+text5 CODE 0 468 468 53 2 1
+text6 CODE 0 4BB 4BB 5F 2 1
+nvCOMMON COMMON 1 7D 7D 1 1 1
+nvBANK0 BANK0 1 24 24 1 1 1
+maintext CODE 0 61C 61C 1DA 2 1
+cstackCOMMON COMMON 1 70 70 B 1 1
+bssBANK0 BANK0 1 20 20 4 1 1
+bssCOMMON COMMON 1 7B 7B 2 1 1
+config CONFIG 4 8007 8007 2 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 25-6F 1
+RAM A0-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 25-6F 1
+BANK1 A0-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 4-456 2
+CONST 800-3FFF 2
+ENTRY 4-456 2
+ENTRY 800-3FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+CODE 4-456 2
+CODE 800-3FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+EEDATA F000-F0FF 2
+STRCODE 4-456 2
+STRCODE 800-3FFF 2
+STRING 4-456 2
+STRING 800-3FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\punto7.X.debug.o
+7F6 cinit CODE >1563:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7F6 cinit CODE >1566:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7F6 cinit CODE >1587:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7F7 cinit CODE >1588:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7F8 cinit CODE >1592:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7F9 cinit CODE >1593:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7FA cinit CODE >1594:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7FB cinit CODE >1595:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7FC cinit CODE >1596:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7FD cinit CODE >1602:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7FD cinit CODE >1604:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+7FE cinit CODE >1605:C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_1.s
+4BB text6 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4BB text6 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4BC text6 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4C0 text6 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4C3 text6 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4C5 text6 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4C7 text6 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4CB text6 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4CE text6 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4D0 text6 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4D4 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4D6 text6 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4DC text6 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4DE text6 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4DF text6 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4E4 text6 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4E8 text6 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4EC text6 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4F1 text6 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4F3 text6 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4F7 text6 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4FB text6 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+4FF text6 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+500 text6 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+505 text6 CODE >36:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+50B text6 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+510 text6 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+513 text6 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+515 text6 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+519 text6 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+468 text5 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+468 text5 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+469 text5 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+46D text5 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+470 text5 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+472 text5 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+474 text5 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+478 text5 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+47B text5 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+47D text5 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+483 text5 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+485 text5 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+486 text5 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+48B text5 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+48F text5 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+493 text5 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+495 text5 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+499 text5 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+49D text5 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4A1 text5 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4A6 text5 CODE >29:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4AC text5 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4B1 text5 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4B4 text5 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4B6 text5 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+4BA text5 CODE >34:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+51A text4 CODE >104:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+51A text4 CODE >105:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+51B text4 CODE >106:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+51D text4 CODE >107:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+51E text4 CODE >108:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+51F text4 CODE >109:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+520 text4 CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+521 text4 CODE >111:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+522 text4 CODE >112:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+523 text4 CODE >113:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+524 text4 CODE >115:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+526 text4 CODE >116:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+527 text4 CODE >117:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+528 text4 CODE >118:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+529 text4 CODE >119:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+52A text4 CODE >120:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+52B text4 CODE >121:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+52C text4 CODE >122:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+52D text4 CODE >124:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+52F text4 CODE >125:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+530 text4 CODE >126:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+531 text4 CODE >127:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+532 text4 CODE >128:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+533 text4 CODE >129:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+534 text4 CODE >130:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+535 text4 CODE >131:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+536 text4 CODE >133:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+538 text4 CODE >134:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+539 text4 CODE >135:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+53A text4 CODE >136:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+53B text4 CODE >137:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+53C text4 CODE >138:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+53D text4 CODE >139:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+53E text4 CODE >140:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+53F text4 CODE >142:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+541 text4 CODE >143:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+542 text4 CODE >144:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+543 text4 CODE >145:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+544 text4 CODE >146:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+545 text4 CODE >147:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+546 text4 CODE >148:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+547 text4 CODE >149:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+548 text4 CODE >151:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+54A text4 CODE >152:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+54B text4 CODE >153:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+54C text4 CODE >154:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+54D text4 CODE >155:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+54E text4 CODE >156:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+54F text4 CODE >157:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+550 text4 CODE >158:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+551 text4 CODE >160:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+553 text4 CODE >161:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+554 text4 CODE >162:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+555 text4 CODE >163:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+556 text4 CODE >164:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+557 text4 CODE >165:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+558 text4 CODE >166:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+559 text4 CODE >167:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+55A text4 CODE >169:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+55C text4 CODE >170:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+55D text4 CODE >171:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+55E text4 CODE >172:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+55F text4 CODE >173:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+560 text4 CODE >174:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+561 text4 CODE >175:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+562 text4 CODE >176:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+563 text4 CODE >178:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+565 text4 CODE >179:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+566 text4 CODE >180:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+567 text4 CODE >181:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+568 text4 CODE >182:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+569 text4 CODE >183:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+56A text4 CODE >184:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+56B text4 CODE >185:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+56C text4 CODE >187:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+56E text4 CODE >188:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+56F text4 CODE >189:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+570 text4 CODE >190:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+571 text4 CODE >191:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+572 text4 CODE >192:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+573 text4 CODE >193:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+574 text4 CODE >194:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+575 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+577 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+57C text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+57F text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+582 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+585 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+588 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+58B text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+58E text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+591 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+594 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+597 text4 CODE >195:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+59A text4 CODE >196:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+59B text3 CODE >198:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+59B text3 CODE >199:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+59C text3 CODE >200:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+59E text3 CODE >201:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+59F text3 CODE >202:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A0 text3 CODE >203:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A1 text3 CODE >204:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A2 text3 CODE >205:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A3 text3 CODE >206:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A4 text3 CODE >207:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A5 text3 CODE >209:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A7 text3 CODE >210:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A8 text3 CODE >211:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5A9 text3 CODE >212:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5AA text3 CODE >213:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5AB text3 CODE >214:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5AC text3 CODE >215:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5AD text3 CODE >216:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5AE text3 CODE >218:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B0 text3 CODE >219:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B1 text3 CODE >220:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B2 text3 CODE >221:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B3 text3 CODE >222:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B4 text3 CODE >223:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B5 text3 CODE >224:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B6 text3 CODE >225:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B7 text3 CODE >227:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5B9 text3 CODE >228:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5BA text3 CODE >229:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5BB text3 CODE >230:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5BC text3 CODE >231:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5BD text3 CODE >232:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5BE text3 CODE >233:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5BF text3 CODE >234:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C0 text3 CODE >236:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C2 text3 CODE >237:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C3 text3 CODE >238:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C4 text3 CODE >239:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C5 text3 CODE >240:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C6 text3 CODE >241:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C7 text3 CODE >242:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C8 text3 CODE >243:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5C9 text3 CODE >245:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5CB text3 CODE >246:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5CC text3 CODE >247:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5CD text3 CODE >248:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5CE text3 CODE >249:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5CF text3 CODE >250:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D0 text3 CODE >251:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D1 text3 CODE >252:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D2 text3 CODE >254:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D4 text3 CODE >255:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D5 text3 CODE >256:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D6 text3 CODE >257:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D7 text3 CODE >258:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D8 text3 CODE >259:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5D9 text3 CODE >260:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5DA text3 CODE >261:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5DB text3 CODE >263:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5DD text3 CODE >264:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5DE text3 CODE >265:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5DF text3 CODE >266:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E0 text3 CODE >267:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E1 text3 CODE >268:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E2 text3 CODE >269:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E3 text3 CODE >270:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E4 text3 CODE >272:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E6 text3 CODE >273:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E7 text3 CODE >274:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E8 text3 CODE >275:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5E9 text3 CODE >276:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5EA text3 CODE >277:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5EB text3 CODE >278:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5EC text3 CODE >279:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5ED text3 CODE >281:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5EF text3 CODE >282:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F0 text3 CODE >283:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F1 text3 CODE >284:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F2 text3 CODE >285:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F3 text3 CODE >286:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F4 text3 CODE >287:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F5 text3 CODE >288:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F6 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5F8 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+5FD text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+600 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+603 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+606 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+609 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+60C text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+60F text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+612 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+615 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+618 text3 CODE >289:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+61B text3 CODE >290:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+457 text2 CODE >6:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+457 text2 CODE >7:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+459 text2 CODE >8:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+45A text2 CODE >9:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\display7seg.c
+45B text1 CODE >10:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+45B text1 CODE >11:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+45E text1 CODE >12:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+45F text1 CODE >13:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+461 text1 CODE >15:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+464 text1 CODE >17:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+466 text1 CODE >18:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+467 text1 CODE >19:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+61C maintext CODE >21:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+61C maintext CODE >22:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+61F maintext CODE >23:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+622 maintext CODE >24:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+624 maintext CODE >25:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+626 maintext CODE >27:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+626 maintext CODE >29:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+62A maintext CODE >31:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+62B maintext CODE >32:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+630 maintext CODE >33:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+63E maintext CODE >34:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+640 maintext CODE >35:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+64F maintext CODE >36:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+65E maintext CODE >38:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+665 maintext CODE >39:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+66D maintext CODE >40:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+678 maintext CODE >43:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+67E maintext CODE >44:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+68E maintext CODE >45:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+69E maintext CODE >47:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6A5 maintext CODE >48:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6AD maintext CODE >49:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6B8 maintext CODE >53:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6BD maintext CODE >54:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6C9 maintext CODE >55:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6CD maintext CODE >56:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6DD maintext CODE >57:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6ED maintext CODE >59:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6F4 maintext CODE >60:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+6FC maintext CODE >61:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+707 maintext CODE >63:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+70D maintext CODE >64:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+71D maintext CODE >65:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+72D maintext CODE >67:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+734 maintext CODE >68:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+73C maintext CODE >69:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+748 maintext CODE >72:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+749 maintext CODE >73:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+74F maintext CODE >74:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+753 maintext CODE >75:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+763 maintext CODE >76:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+773 maintext CODE >78:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+77A maintext CODE >79:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+782 maintext CODE >80:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+78D maintext CODE >82:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+794 maintext CODE >90:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+796 maintext CODE >91:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+79D maintext CODE >92:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+79F maintext CODE >93:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7AE maintext CODE >94:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7BD maintext CODE >96:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7C4 maintext CODE >97:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7CC maintext CODE >98:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7D7 maintext CODE >101:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7DE maintext CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7E3 maintext CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7E8 maintext CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7EB maintext CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7EE maintext CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+7F1 maintext CODE >110:D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto7.X\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 3 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__Hspace_0 800 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10010 0 ABS 0 - -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+__Hstrings 0 0 ABS 0 strings -
+___sp 0 0 STACK 2 stack C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+_dig1 22 0 BANK0 1 bssBANK0 dist/default/debug\punto7.X.debug.o
+_dig2 20 0 BANK0 1 bssBANK0 dist/default/debug\punto7.X.debug.o
+_main C38 0 CODE 0 maintext dist/default/debug\punto7.X.debug.o
+btemp 7E 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+start 4 0 CODE 0 init C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__Hpowerup 0 0 CODE 0 powerup -
+___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__LnvCOMMON 0 0 ABS 0 nvCOMMON -
+intlevel0 0 0 ENTRY 0 functab C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+wtemp0 7E 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+__Hfunctab 0 0 ENTRY 0 functab -
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__Hclrtext 0 0 ABS 0 clrtext -
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+_BORCON 116 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+__Lmaintext 0 0 ABS 0 maintext -
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__end_of___awdiv A34 0 CODE 0 text6 dist/default/debug\punto7.X.debug.o
+__end_of___awmod 976 0 CODE 0 text5 dist/default/debug\punto7.X.debug.o
+___stackhi 0 0 ABS 0 - C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+___stacklo 0 0 ABS 0 - C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+__HnvCOMMON 0 0 ABS 0 nvCOMMON -
+start_initialization FEC 0 CODE 0 cinit dist/default/debug\punto7.X.debug.o
+_OSCCON 99 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+_direccion 7D 0 COMMON 1 nvCOMMON dist/default/debug\punto7.X.debug.o
+_display_cc1 A34 0 CODE 0 text4 dist/default/debug\punto7.X.debug.o
+_display_cc2 B36 0 CODE 0 text3 dist/default/debug\punto7.X.debug.o
+_init_punto7 8B6 0 CODE 0 text1 dist/default/debug\punto7.X.debug.o
+___int_sp 0 0 STACK 2 stack C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10012 0 CONFIG 4 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit FEC 0 CODE 0 cinit -
+_display_init 8AE 0 CODE 0 text2 dist/default/debug\punto7.X.debug.o
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 4 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 4 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pnvBANK0 24 0 BANK0 1 nvBANK0 dist/default/debug\punto7.X.debug.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 800 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__pnvCOMMON 7D 0 COMMON 1 nvCOMMON dist/default/debug\punto7.X.debug.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__Lintentry 4 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__end_of_display_init 8B6 0 CODE 0 text2 dist/default/debug\punto7.X.debug.o
+___awdiv 976 0 CODE 0 text6 dist/default/debug\punto7.X.debug.o
+___awmod 8D0 0 CODE 0 text5 dist/default/debug\punto7.X.debug.o
+_numero 24 0 BANK0 1 nvBANK0 dist/default/debug\punto7.X.debug.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext C38 0 CODE 0 maintext dist/default/debug\punto7.X.debug.o
+__Lbigram 0 0 ABS 0 bigram -
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+_LATCbits 10E 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+_LATDbits 10F 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+_OSCTUNE 98 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 7B 0 COMMON 1 bssCOMMON dist/default/debug\punto7.X.debug.o
+__Lend_init 4 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FFA 0 CODE 0 cinit dist/default/debug\punto7.X.debug.o
+__Hintentry 4 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+?___awmod 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__end_of_display_cc1 B36 0 CODE 0 text4 dist/default/debug\punto7.X.debug.o
+__end_of_display_cc2 C38 0 CODE 0 text3 dist/default/debug\punto7.X.debug.o
+display_cc2@dig2 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__ptext1 8B6 0 CODE 0 text1 dist/default/debug\punto7.X.debug.o
+__ptext2 8AE 0 CODE 0 text2 dist/default/debug\punto7.X.debug.o
+__ptext3 B36 0 CODE 0 text3 dist/default/debug\punto7.X.debug.o
+__ptext4 A34 0 CODE 0 text4 dist/default/debug\punto7.X.debug.o
+__ptext5 8D0 0 CODE 0 text5 dist/default/debug\punto7.X.debug.o
+__ptext6 976 0 CODE 0 text6 dist/default/debug\punto7.X.debug.o
+__end_of_init_punto7 8D0 0 CODE 0 text1 dist/default/debug\punto7.X.debug.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+___heap_hi 0 0 ABS 0 - C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+___heap_lo 0 0 ABS 0 - C:\Users\DAVIAN\AppData\Local\Temp\xcAs72o.\driver_tmp_15.o
+__end_of__initialization FFA 0 CODE 0 cinit dist/default/debug\punto7.X.debug.o
+___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__Lclrtext 0 0 ABS 0 clrtext -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+__Hend_init 8 0 CODE 0 end_init -
+__end_of_main FEC 0 CODE 0 maintext dist/default/debug\punto7.X.debug.o
+_PORTB D 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+_TRISC 8E 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+_TRISD 8F 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_contador 7B 0 COMMON 1 bssCOMMON dist/default/debug\punto7.X.debug.o
+__initialization FEC 0 CODE 0 cinit dist/default/debug\punto7.X.debug.o
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/debug\punto7.X.debug.o
+display_cc1@dig 70 0 COMMON 1 cstackCOMMON dist/default/debug\punto7.X.debug.o
+_ANSELBbits 18D 0 ABS 0 - dist/default/debug\punto7.X.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7F6 FEC A 2
+text1 0 45B 8B6 D 2
+text2 0 457 8AE 4 2
+text3 0 59B B36 81 2
+text4 0 51A A34 81 2
+text5 0 468 8D0 53 2
+text6 0 4BB 976 5F 2
+maintext 0 61C C38 1DA 2
+cstackCOMMON 1 70 70 E 1
+reset_vec 0 0 0 4 2
+bssBANK0 1 20 20 5 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

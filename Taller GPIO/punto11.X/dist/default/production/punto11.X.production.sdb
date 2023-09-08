@@ -1,0 +1,119 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1939 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto11.X\display7seg.c
+[v _display_init display_init `(v  1 e 1 0 ]
+"9
+[v _display_ac display_ac `(v  1 e 1 0 ]
+"8 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto11.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"6 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto11.X\punto11.c
+[v _init_punto11 init_punto11 `(v  1 e 1 0 ]
+[s S35 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508 D:/MPLAB X IDE/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8\pic\include\proc\pic16f1939.h
+[u S44 . 1 `S35 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES44  1 e 1 @13 ]
+[s S106 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S115 . 1 `S106 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES115  1 e 1 @141 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+[s S151 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1787
+[s S160 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S165 . 1 `S151 1 . 1 0 `S160 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES165  1 e 1 @149 ]
+[s S72 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2498
+[u S81 . 1 `S72 1 . 1 0 ]
+[v _LATCbits LATCbits `VES81  1 e 1 @270 ]
+"2543
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+[s S127 . 1 `uc 1 ANSB0 1 0 :1:0 
+`uc 1 ANSB1 1 0 :1:1 
+`uc 1 ANSB2 1 0 :1:2 
+`uc 1 ANSB3 1 0 :1:3 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"3404
+[s S134 . 1 `uc 1 ANSELB 1 0 :6:0 
+]
+[u S136 . 1 `S127 1 . 1 0 `S134 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES136  1 e 1 @397 ]
+"4063
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"6 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto11.X\main.c
+[v _dig dig `c  1 e 1 0 ]
+"8
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+} 0
+"6 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto11.X\punto11.c
+[v _init_punto11 init_punto11 `(v  1 e 1 0 ]
+{
+"20
+} 0
+"6 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto11.X\display7seg.c
+[v _display_init display_init `(v  1 e 1 0 ]
+{
+"8
+} 0
+"9
+[v _display_ac display_ac `(v  1 e 1 0 ]
+{
+[v display_ac@dig dig `uc  1 a 1 wreg ]
+[v display_ac@dig dig `uc  1 a 1 wreg ]
+[v display_ac@dig dig `uc  1 a 1 2 ]
+"101
+} 0

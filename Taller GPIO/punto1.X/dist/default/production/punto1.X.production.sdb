@@ -1,0 +1,43 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1939 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"30 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto1.X\config.c
+[v _init_punto1 init_punto1 `(v  1 e 1 0 ]
+"7 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"1499 D:/MPLAB X IDE/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8\pic\include\proc\pic16f1939.h
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1957
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"2015
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2543
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+"2923
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"5 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto1.X\main.c
+[v _cont cont `uc  1 e 1 0 ]
+"7
+[v _main main `(v  1 e 1 0 ]
+{
+"16
+[v main@i_44 i `uc  1 a 1 3 ]
+"10
+[v main@i i `uc  1 a 1 2 ]
+"24
+} 0
+"30 D:\USUARIO\Desktop\UNIVERSIDAD\MICROCONTROLADORES\Taller GPIO\punto1.X\config.c
+[v _init_punto1 init_punto1 `(v  1 e 1 0 ]
+{
+"37
+} 0
